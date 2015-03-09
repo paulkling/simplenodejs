@@ -22,4 +22,4 @@ docker run -p 3000:3000 app
 ###Run docker image in background
 docker run -d -p 3000:3000 app
 
-docker run --link javaspring:javaring -p 3000:3000 app
+docker run --link javaspring:javaspring -p 3000:3000 app
