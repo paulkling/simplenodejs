@@ -6,7 +6,7 @@ var http = require('http');
 
 exports.java = function (req, res) {
   return http.get({
-          host: 'localhost',
+          host: 'javaspring',
           port: '8080',
           path: '/api'
       }, function(response) {
